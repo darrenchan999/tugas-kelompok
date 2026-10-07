@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background: #eaf7ff; color: #134a63; }
+
+/* NAVBAR */
+header { background: linear-gradient(135deg, #4fc3f7, #81d4fa); padding: 14px 8%;
+  display: flex; justify-content: space-between; align-items: center; color: #fff; }
+header .logo { font-size: 24px; font-weight: bold; }
+header nav a { color: #fff; text-decoration: none; margin-left: 20px; font-weight: 500; }
+header nav a:hover { text-decoration: underline; }
+
+/* HERO */
+.hero { background: linear-gradient(180deg, #81d4fa, #eaf7ff); text-align: center; padding: 70px 8%; }
+.hero h1 { font-size: 40px; margin-bottom: 12px; color: #01579b; }
+.hero p { font-size: 18px; max-width: 650px; margin: 0 auto 24px; }
+.btn { display: inline-block; background: #0288d1; color: #fff; padding: 12px 28px;
+  border-radius: 25px; text-decoration: none; border: none; cursor: pointer; font-size: 16px; }
+.btn:hover { background: #01579b; }
+
+/* SECTION */
+section { padding: 50px 8%; text-align: center; }
+section h2 { margin-bottom: 30px; color: #01579b; }
+.cards { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.card { background: #fff; width: 250px; padding: 25px; border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(2,136,209,.15); }
+.card .icon { font-size: 40px; margin-bottom: 10px; }
+.card h3 { margin-bottom: 8px; }
+
+footer { background: #01579b; color: #fff; text-align: center; padding: 18px; }
+
+/* FORM LOGIN & REGISTER */
+.auth-box { background: #fff; width: 380px; margin: 60px auto; padding: 35px;
+  border-radius: 18px; box-shadow: 0 6px 18px rgba(2,136,209,.2); text-align: center; }
+.auth-box h2 { color: #01579b; margin-bottom: 6px; }
+.auth-box p { margin-bottom: 20px; font-size: 14px; }
+.auth-box input { width: 100%; padding: 12px; margin-bottom: 14px; border: 1px solid #b3e5fc;
+  border-radius: 10px; font-size: 15px; outline-color: #29b6f6; }
+.auth-box .btn { width: 100%; border-radius: 10px; }
+.auth-box a { color: #0288d1; text-decoration: none; }
